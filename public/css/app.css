@@ -1,0 +1,37 @@
+/**
+    Chaos vs Order
+    By Brandon Stewart
+    Root Colors
+ */
+:root {
+  --Chaos: #121212;
+  --Order: #f1f1f1;
+  --Cloud: #e6e6e6;
+  --Black: #010101;
+  --BlackGlass: #010101af;
+  --Primary: #333333;
+  --PrimarGlass: #333333af;
+  --Grey: #757575;
+  --GreyGlass: #757575af;
+  --Clear: #00000000;
+  --Red: rgba(255, 10, 60, 0.50);
+  --AurFlow: linear-gradient(-45deg, #d84a4a, #9f0d6a, #6b63ff, #21ffa2);
+  --AurFlow2: linear-gradient(-45deg, #d84a4a, #9f0d6a);
+  --AurFlow3: linear-gradient(-45deg, #6b63ff, #21ffa2);
+  --AurGreen: linear-gradient(-45deg, #23d5ab, #02ae05, #21ffa2, #23a6d5);
+  --AurGreenBlue: linear-gradient(90deg, #21ffa2 0%, #6b63ff 100%);
+  --AurBlueGreen: linear-gradient(90deg, #6b63ff 0%, #21ffa2 100%);
+  --AurBlue: linear-gradient(90deg, #A0F9FF 0%, #6b63ff 100%);
+  --AurPurple: linear-gradient(90deg, #A0BBFF 0%, #EC77FF 100%);
+  --AurRed: linear-gradient(90deg, #d84a4a 0%, #9f0d6a);
+  --AurOrange: linear-gradient(90deg, #ffd048 0%, #FF4B32 100%);
+  --AurGreenText: #21ffa2;
+  --AurGreenDarkText: #02ae05;
+  --AurBlueText: #A0F9FF;
+  --AurBlueDarkText: #6b63ff;
+}
+
+body {
+  background: var(--Primary);
+  color: #010101;
+}

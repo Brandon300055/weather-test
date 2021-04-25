@@ -1,0 +1,34 @@
+/**
+    Chaos vs Order
+    By Brandon Stewart
+    Root Colors
+ */
+:root {
+    --Chaos: #121212; // static black no matter the theme.
+    --Order: #f1f1f1; // static white no matter the theme.
+    --Cloud: #e6e6e6; // secondary white
+    --Black: #010101;  // Black color with transparency.
+    --BlackGlass: #010101af;  // Black color with transparency.
+    --Primary: #333333; // Primary color.
+    --PrimarGlass: #333333af; // Primary color with transparency.
+    --Grey: #757575; // grey
+    --GreyGlass: #757575af; // grey
+    --Clear: #00000000; // clear
+    --Red: rgba(255, 10, 60, 0.50); // Danger color.
+
+    // Aurora Colors and Gradients
+    --AurFlow: linear-gradient(-45deg, #d84a4a, #9f0d6a, #6b63ff, #21ffa2);
+    --AurFlow2: linear-gradient(-45deg, #d84a4a, #9f0d6a);
+    --AurFlow3: linear-gradient(-45deg, #6b63ff, #21ffa2);
+    --AurGreen: linear-gradient(-45deg, #23d5ab, #02ae05, #21ffa2, #23a6d5); // Aurora Blue color.
+    --AurGreenBlue: linear-gradient(90deg, #21ffa2 0%, #6b63ff 100%); // Aurora Blue color.
+    --AurBlueGreen: linear-gradient(90deg, #6b63ff 0%, #21ffa2 100%); // Aurora Blue color.
+    --AurBlue: linear-gradient(90deg, #A0F9FF 0%, #6b63ff 100%); // Aurora Green color.
+    --AurPurple: linear-gradient(90deg, #A0BBFF 0%, #EC77FF 100%); // Aurora Purple color.
+    --AurRed: linear-gradient(90deg, #d84a4a 0%, #9f0d6a); // Aurora Red color.
+    --AurOrange: linear-gradient(90deg, #ffd048 0%, #FF4B32 100%); // Aurora Orange color.
+    --AurGreenText: #21ffa2;
+    --AurGreenDarkText: #02ae05;
+    --AurBlueText: #A0F9FF;
+    --AurBlueDarkText: #6b63ff;
+}
