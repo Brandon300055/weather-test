@@ -16,7 +16,6 @@
     <!-- App Styles CSS-->
     <link rel="stylesheet" rel="preload" as="style" href="{{ asset('css/app.css') }}" >
 
-
     @yield('page-css')
 
 </head>
@@ -25,8 +24,8 @@
 @yield('content')
 
 <footer class="footer">
-    <div class="">
-        <div class="copy-right">Copyright © {{ date("Y") }}</div>
+    <div class="text-right">
+        <div class="copy-right">Copyright © {{ date("Y") }}  Brandon, LLC. All rights reserved.</div>
     </div>
 </footer>
 
