@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import axios from "axios";
 import Swal from 'sweetalert2'
-import swal from "sweetalert2";
 
 let weather = new Vue({
     el: '#weather',
@@ -15,7 +14,7 @@ let weather = new Vue({
             humidity: "----",
             pressure: "----",
             wind: "----",
-            video: "clear2.mp4",
+            video: "/video/clear.mp4",
             icon: "fa fa-sun",
         }
     },
@@ -33,27 +32,27 @@ let weather = new Vue({
         {
             switch(sky) {
                 case "Clear":
-                    this.video = "clear2.mp4";
+                    this.video = "/video/clear.mp4";
                     this.icon = "fa fa-sun";
                     break;
                 case "Clouds":
-                    this.video = "clouds.mp4";
+                    this.video = "/video/clouds.mp4";
                     this.icon = "fas fa-cloud-sun";
                     break;
                 case "Rain":
-                    this.video = "rain.mp4";
+                    this.video = "/video/rain.mp4";
                     this.icon = "fas fa-cloud-sun-rain";
                     break;
                 case "Snow":
-                    this.video = "snow.mp4";
+                    this.video = "/video/snow.mp4";
                     this.icon = "far fa-snowflake";
                     break;
                 case "Extreme":
-                    this.video = "extreme.mp4";
+                    this.video = "/video/extreme.mp4";
                     this.icon = "fas fa-cloud-showers-heavy";
                     break;
                 default:
-                    this.video = "clouds.mp4";
+                    this.video = "/video/clouds.mp4";
                     this.icon = "fa fa-sun";
             }
         },

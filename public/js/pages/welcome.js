@@ -1850,7 +1850,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 var weather = new vue__WEBPACK_IMPORTED_MODULE_2__.default({
   el: '#weather',
   components: {},
@@ -1863,7 +1862,7 @@ var weather = new vue__WEBPACK_IMPORTED_MODULE_2__.default({
       humidity: "----",
       pressure: "----",
       wind: "----",
-      video: "clear2.mp4",
+      video: "/video/clear.mp4",
       icon: "fa fa-sun"
     };
   },
@@ -1875,32 +1874,32 @@ var weather = new vue__WEBPACK_IMPORTED_MODULE_2__.default({
     setSky: function setSky(sky) {
       switch (sky) {
         case "Clear":
-          this.video = "clear2.mp4";
+          this.video = "/video/clear.mp4";
           this.icon = "fa fa-sun";
           break;
 
         case "Clouds":
-          this.video = "clouds.mp4";
+          this.video = "/video/clouds.mp4";
           this.icon = "fas fa-cloud-sun";
           break;
 
         case "Rain":
-          this.video = "rain.mp4";
+          this.video = "/video/rain.mp4";
           this.icon = "fas fa-cloud-sun-rain";
           break;
 
         case "Snow":
-          this.video = "snow.mp4";
+          this.video = "/video/snow.mp4";
           this.icon = "far fa-snowflake";
           break;
 
         case "Extreme":
-          this.video = "extreme.mp4";
+          this.video = "/video/extreme.mp4";
           this.icon = "fas fa-cloud-showers-heavy";
           break;
 
         default:
-          this.video = "clouds.mp4";
+          this.video = "/video/clouds.mp4";
           this.icon = "fa fa-sun";
       }
     },

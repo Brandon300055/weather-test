@@ -13,7 +13,7 @@
 
     <div class="" id="weather" v-cloak>
 
-        <video class="" :src="'/video/' + video" style="z-index: 0" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"></video>
+        <video class="" :src="video" style="z-index: 0" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"></video>
 
         <div class="row">
             <div class="col-12">
